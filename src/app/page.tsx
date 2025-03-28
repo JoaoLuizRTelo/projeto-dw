@@ -9,19 +9,19 @@ export default function MenuJogos() {
 
       <div className="lg:grid grid-cols-3 gap-4">
         <Link href="/adivinhacao">
-          <p className="p-6 bg-[#ff9800] text-white rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-2">
+          <p className="p-4 bg-[#ff9800] text-purple-100 text-2xl rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-4">
             Jogo de Adivinhação
           </p>
         </Link>
 
         <Link href="/rapidez">
-          <p className="p-6 bg-[#ff9800] text-white rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-2">
+          <p className="p-4 bg-[#ff9800] text-purple-100 text-2xl rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-4">
             Jogo de Reflexo
           </p>
         </Link>
 
         <Link href="/memoria">
-          <p className="p-6 bg-[#ff9800] text-white rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-2">
+          <p className="p-4 bg-[#ff9800] text-purple-100 text-2xl rounded-lg shadow-lg hover:bg-[#ffcc11] lg:mt-0 mt-4">
             Jogo de Memória
           </p>
         </Link>

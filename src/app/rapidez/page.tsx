@@ -66,10 +66,10 @@ export default function JogoRapidez() {
         ) : (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 rounded-lg">
             <div className="bg-white p-8 rounded-lg shadow-xl">
-              <h2 className="text-2xl font-bold text-green-600 mb-4">
+              <h2 className="text-2xl font-bold text-green-700 mb-4">
                 Fim de Jogo!
               </h2>
-              <p className="text-xl mb-6">
+              <p className="text-xl mb-6 text-green-600">
                 Sua pontuação final: {pontos} cliques
               </p>
               <button
