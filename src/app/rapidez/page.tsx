@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 export default function JogoRapidez() {
-  const TEMPO_JOGO = 30; // Tempo em segundos
+  const TEMPO_JOGO = 30;
   const [posicao, setPosicao] = useState({ top: "50%", left: "50%" });
   const [pontos, setPontos] = useState(0);
   const [tempoRestante, setTempoRestante] = useState(TEMPO_JOGO);

@@ -109,17 +109,20 @@ export default function JogoMemoria() {
               <h2 className="text-2xl font-bold text-indigo-600 mb-4 bg-amber-200 rounded-t-lg">
                 Parabéns!
               </h2>
-            
-            <p className="text-lg mb-6 mx-4" style={{ padding: "0px 0px 10px 0px" }}>
-              Você completou o jogo!
-            </p>
-            <button
-              onClick={reiniciarJogo}
-              className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold rounded p-4 m-4 lg:m-0"
-              style={{ padding: "5px" }}
-            >
-              Jogar Novamente
-            </button>
+
+              <p
+                className="text-lg mb-6 mx-4"
+                style={{ padding: "0px 0px 10px 0px" }}
+              >
+                Você completou o jogo!
+              </p>
+              <button
+                onClick={reiniciarJogo}
+                className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold rounded p-4 m-4 lg:m-0"
+                style={{ padding: "5px" }}
+              >
+                Jogar Novamente
+              </button>
             </div>
           </div>
         </div>
