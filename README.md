@@ -95,7 +95,7 @@ projeto-dw/
 ## 🔧 Como Executar
 1. Instale as dependências:
 ```bash
-npm install
+npm i
 ```
 
 2. Execute o projeto:
